@@ -1,0 +1,78 @@
+body {
+    background: #1D232D;
+    font-family: 'Poller One', cursive;
+}
+
+div.box {
+    position: absolute;
+    border: 1px solid black;
+    text-align: center;
+    background-color: darkblue;
+    font-size: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+div#container {
+    width: 1000px;
+    height: 1000px;
+    text-align: center;
+    background-image: url("images/124178.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid navy;
+    border-radius: 100px;
+}
+
+div#res {
+    width: 360px;
+    margin: 10px auto;
+    text-align: center;
+    color: red;
+    font-size: xx-large;
+}
+
+div#menu {
+    position: relative;
+    top: -400px;
+}
+
+div#menu table {
+    color: oldlace;
+    border-radius: 10px;
+    border: 2px solid tomato;
+    height: 300px;
+    width: 500px;
+    text-align: center;
+    font-size: x-large;
+    margin: 20px auto;
+    background: navy;
+}
+
+div#menu img.Profile {
+    border-radius: 50%;
+    width: 100px;
+}
+
+div#menu img.play {
+    width: 50px;
+    margin-left: 200px;
+}
+
+div#menu #memory {
+    background-color: teal;
+    font-size: x-large;
+}
+
+span {
+    color: darkred;
+}
+
+.difficulty {
+    margin-left: 20px;
+    margin-bottom: 25px;
+    width: 50px;
+}
